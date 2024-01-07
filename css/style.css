@@ -1,0 +1,22 @@
+@import url("hero.css");
+
+:root {
+  --primary-pink: hsl(322, 100%, 66%);
+  --very-pale-cyan: hsl(193, 100%, 96%);
+  --very-dark-cyan: hsl(192, 100%, 9%);
+  --grayish-blue: hsl(208, 11%, 55%);
+}
+
+h1,h2,h3,h4,h5,p,ul,li {
+  margin: 0;
+  padding: 0;
+}
+
+h1,h2,h3,h4 {
+  font-family: 'Poppins', sans-serif;
+}
+
+p, a {
+  font-family: 'Open Sans', sans-serif;
+}
+
