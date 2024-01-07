@@ -82,3 +82,7 @@
 .hero-img {
   width: 100%;
 }
+
+@media (768px < width <= 1440px) {
+
+}
