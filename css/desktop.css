@@ -1,0 +1,63 @@
+@media (961px <= width <= 1440px) {
+  .logo {
+    width: 200px;
+    height: 31px;
+  }
+  .main {
+    padding-top: 50px;
+    background-image: url(./../images/bg-hero-desktop.svg);
+    background-size: contain;
+    /*
+    background-image: url(./../images/bg-hero-mobile.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 26.15px;
+  padding-bottom: 37px;
+     */
+  }
+
+  .hero {
+    flex-direction: row;
+    align-items: center;
+    gap: 54px;
+  }
+
+  .nav-button {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 24px;
+    font-size: 0.875rem;
+  }
+  .nav-button:hover {
+    color: var(--grayish-blue);
+    box-shadow: none;
+    transition: ease-in .15s;
+  }
+
+  .hero-heading {
+    text-align: left;
+    margin-bottom: 32px;
+  }
+
+  .hero-paragraph {
+    font-size: 1.25rem;
+    text-align: left;
+    margin-bottom: 32px;
+  }
+
+  .hero-button {
+    margin: 0;
+    border-radius: 28px;
+    padding-top: 18px;
+    padding-bottom: 18px;
+  }
+  .hero-button:hover {
+    background-color: hsla(322, 100%, 80%, 1);
+    box-shadow: none;
+    transition: ease-in 0.15s;
+  }
+
+  .hero-img {
+    width: 53.54%;
+  }
+}
