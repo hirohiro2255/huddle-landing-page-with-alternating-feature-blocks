@@ -1,3 +1,5 @@
 @media (768px <= width <= 960px) {
-
+  .hero {
+    width: min(91.467%, 1280px);
+  }
 }

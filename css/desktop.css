@@ -17,6 +17,7 @@
   }
 
   .hero {
+    width: min(91.467%, 1280px);
     flex-direction: row;
     align-items: center;
     gap: 54px;
