@@ -2,4 +2,10 @@
   .hero {
     width: min(91.467%, 1280px);
   }
+
+  /* Card component */
+  .card-list {
+    padding-top: 160px;
+    padding-bottom: 334px;
+  }
 }

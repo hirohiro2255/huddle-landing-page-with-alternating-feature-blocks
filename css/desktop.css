@@ -61,4 +61,37 @@
   .hero-img {
     width: 53.54%;
   }
+
+  /* Card component */
+  .card-list {
+    padding-top: 160px;
+    padding-bottom: 334px;
+  }
+
+  .card-wrapper {
+    /* width: 87.58%; */
+    gap: 185px;
+    flex-direction: row;
+    /* padding-right: 0px;
+    padding-left: 120px; */
+    padding-top: 72px;
+    padding-bottom: 72px;
+    padding-right: 25px;
+    padding-left: 120px;
+  }
+
+  .card-wrapper.reverse {
+    flex-direction: row-reverse;
+  }
+
+
+  .card-img {
+    width: min(37.6%, 406.467px);
+  }
+  .card-detail {
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
 }
